@@ -2396,6 +2396,15 @@ class EcowittClient(Consumer):
             'lightning_num': 'lightningcount',
             'wh57batt': 'wh57_battery',
 	    'wh80batt': 'wh80_battery',
+            'rrain_piezo': 'rain_rate',
+            'erain_piezo': 'event_rain',
+            'drain_piezo': 'day_rain',
+            'wrain_piezo': 'week_rain',
+            'mrain_piezo': 'month_rain',
+            'yrain_piezo': 'year_rain',
+            'wh90batt': 'outTempBatteryStatus',
+            'ws90_ver': 'ws90_firmware_ver',
+            'ws90cap_volt': 'batteryStatus1',
         }
 
         IGNORED_LABELS = [
